@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3002/api/signup", {
+      const res = await axios.post("https://news-application-lsrg.onrender.com/api/signup", {
         fname,
         lname,
         email,

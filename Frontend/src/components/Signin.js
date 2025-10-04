@@ -13,7 +13,7 @@ const Signin = () => {
     const handleSignin = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3002/api/signin", {
+            const res = await axios.post("https://news-application-lsrg.onrender.com/api/signin", {
                 email,
                 password,
             });
