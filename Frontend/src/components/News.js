@@ -7,7 +7,7 @@ const News = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3002/api/getnews")
+      .get("https://news-application-lsrg.onrender.com/api/getnews")
       .then((res) => {
         console.log(res.data);
         setNews(res.data);
